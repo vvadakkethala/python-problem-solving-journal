@@ -1,7 +1,2 @@
 ## Day 1 - Two Sum
-
-- Learned how to use hash maps for constant-time lookups
-- Practiced: Two Sum (LeetCode Easy)
-- Time complexity: O(n), Space: O(n)
-
-Next: Practice more array-based problems
+In this problem, we are using a dictionary (hash map) called seen and we are adding the elements in nums list to this dictionary where key is the number and value is the index. A variable names complement is created which is the difference of target minus the number. if the complement is not there in the dictionary, then we add. if its there in the dictionary then we return the index of complement (i.e seen[complement]) and i
