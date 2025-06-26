@@ -8,7 +8,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 
 ### ✅ Week 1: Python Basics & Arrays
 - [x] Two Sum
-- [ ] Contains Duplicate
+- [x] Contains Duplicate
 - [ ] Valid Anagram
 - [ ] Maximum Subarray
 - [ ] Best Time to Buy and Sell Stock
