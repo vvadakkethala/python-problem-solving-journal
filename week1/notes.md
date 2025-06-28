@@ -3,3 +3,6 @@ In this problem, we are using a dictionary (hash map) called seen and we are add
 
 ## Day 2 - Contains Duplicate
 In this problem we need to return true if the element is repeated in the input nums list. so we create an empty set object and loop through nums, if the value num in nums is already present in the set return true else we add it for list once full loop is done and no elements repeated then we return false
+
+## Day 3 - Valid Anagram
+In this problem we create a dictionary (hashmap) where key is each character and value is its frequency. then we check the other strings character if the character of the other string is not there in the frequency hashmap, then we return false, if its there then we reduce the value -=1. once all loop is complete and did not break in between, then we return true. 
