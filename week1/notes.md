@@ -6,3 +6,6 @@ In this problem we need to return true if the element is repeated in the input n
 
 ## Day 3 - Valid Anagram
 In this problem we create a dictionary (hashmap) where key is each character and value is its frequency. then we check the other strings character if the character of the other string is not there in the frequency hashmap, then we return false, if its there then we reduce the value -=1. once all loop is complete and did not break in between, then we return true. 
+
+## Day 4 - Maximum Subarray
+In this problem, we parse through each element in the array. we keep a track of 2 variables curren_sum and max_sum. we take max out of these 2 values. we initialize current sum and max sum with the number at the first index then we add next element to the current sum. if that is max then store in the max_sum else we keep the current value which is in the max_sum. finally we return max_sum

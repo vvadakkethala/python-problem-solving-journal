@@ -10,7 +10,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 - [x] Two Sum
 - [x] Contains Duplicate
 - [x] Valid Anagram
-- [ ] Maximum Subarray
+- [x] Maximum Subarray
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Merge Sorted Array
 - [ ] Intersection of Two Arrays II
