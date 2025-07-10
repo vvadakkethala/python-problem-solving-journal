@@ -9,3 +9,6 @@ In this problem we create a dictionary (hashmap) where key is each character and
 
 ## Day 4 - Maximum Subarray
 In this problem, we parse through each element in the array. we keep a track of 2 variables curren_sum and max_sum. we take max out of these 2 values. we initialize current sum and max sum with the number at the first index then we add next element to the current sum. if that is max then store in the max_sum else we keep the current value which is in the max_sum. finally we return max_sum
+
+## Day 5 - Best Time to Buy and Sell Stock
+In this problem we initiate 2 variables and set them to values as follows, min_price = flot('inf') and max_profit = 0. then we go through price of each day. if the current price is less than min_price, then we update min_price to that price, else we set max_profit to max(max_profit, price-min_price). finally we return the profit

@@ -11,7 +11,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 - [x] Contains Duplicate
 - [x] Valid Anagram
 - [x] Maximum Subarray
-- [ ] Best Time to Buy and Sell Stock
+- [x] Best Time to Buy and Sell Stock
 - [ ] Merge Sorted Array
 - [ ] Intersection of Two Arrays II
 - [ ] Plus One
