@@ -12,7 +12,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 - [x] Valid Anagram
 - [x] Maximum Subarray
 - [x] Best Time to Buy and Sell Stock
-- [ ] Merge Sorted Array
+- [x] Merge Sorted Array
 - [ ] Intersection of Two Arrays II
 - [ ] Plus One
 - [ ] Move Zeroes

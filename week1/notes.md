@@ -8,7 +8,12 @@ In this problem we need to return true if the element is repeated in the input n
 In this problem we create a dictionary (hashmap) where key is each character and value is its frequency. then we check the other strings character if the character of the other string is not there in the frequency hashmap, then we return false, if its there then we reduce the value -=1. once all loop is complete and did not break in between, then we return true. 
 
 ## Day 4 - Maximum Subarray
-In this problem, we parse through each element in the array. we keep a track of 2 variables curren_sum and max_sum. we take max out of these 2 values. we initialize current sum and max sum with the number at the first index then we add next element to the current sum. if that is max then store in the max_sum else we keep the current value which is in the max_sum. finally we return max_sum
+In this problem, we parse through each element in the array. we keep a track of 2 variables curren_sum and max_sum. we take max out of these 2 values. we initialize current sum and max sum with the number at the first index then we add next element to the current sum. if that is max then store in the max_sum else we keep the current value which is in the max_sum. finally we return max_sum.
+
+Kadane’s algorithm helps you find the biggest total you can make by adding numbers that sit next to each other in a list. Imagine walking along the list and carrying a running score: at each number, you choose whether to add it to your score or drop the old score and start fresh with this number. You also keep a note of the highest score you’ve had so far, so a later smaller score won’t make you forget the best one. For example, in [-2, 1, -3, 4, -1, 2, 1], it finds [4, -1, 2, 1], which adds up to 6.
 
 ## Day 5 - Best Time to Buy and Sell Stock
 In this problem we initiate 2 variables and set them to values as follows, min_price = flot('inf') and max_profit = 0. then we go through price of each day. if the current price is less than min_price, then we update min_price to that price, else we set max_profit to max(max_profit, price-min_price). finally we return the profit
+
+## Day 6 - Merge Sorted Array
+In this problem, we are given two sorted arrays, nums1 and nums2, where nums1 has enough space to hold all elements of both arrays. We use three pointers: i for the last element in the initial part of nums1, j for the last element in nums2, and k for the last position in nums1. We compare elements from the end and place the larger one at position k, then move the pointers accordingly. Finally, if any elements are left in nums2, we copy them to nums1.
