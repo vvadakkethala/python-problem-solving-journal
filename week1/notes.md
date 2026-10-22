@@ -17,3 +17,7 @@ In this problem we initiate 2 variables and set them to values as follows, min_p
 
 ## Day 6 - Merge Sorted Array
 In this problem, we are given two sorted arrays, nums1 and nums2, where nums1 has enough space to hold all elements of both arrays. We use three pointers: i for the last element in the initial part of nums1, j for the last element in nums2, and k for the last position in nums1. We compare elements from the end and place the larger one at position k, then move the pointers accordingly. Finally, if any elements are left in nums2, we copy them to nums1.
+
+
+## Day 7 - Intersection of Two Arrays II
+In this problem, we use a Counter (hash map) to count the frequency of each element in the first array, nums1. Then, we iterate through the second array, nums2, and check if the element exists in the Counter with a positive count. If it does, we add it to the intersection list and decrement the count in the Counter. Finally, we return the intersection list containing elements that appear in both arrays as many times as they appear in both.
