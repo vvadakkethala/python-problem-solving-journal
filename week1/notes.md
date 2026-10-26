@@ -21,3 +21,9 @@ In this problem, we are given two sorted arrays, nums1 and nums2, where nums1 ha
 
 ## Day 7 - Intersection of Two Arrays II
 In this problem, we use a Counter (hash map) to count the frequency of each element in the first array, nums1. Then, we iterate through the second array, nums2, and check if the element exists in the Counter with a positive count. If it does, we add it to the intersection list and decrement the count in the Counter. Finally, we return the intersection list containing elements that appear in both arrays as many times as they appear in both.
+
+## Day 8 - Plus One
+In this problem, we are given a list of digits representing a large integer. We need to increment this integer by one and return the resulting list of digits. We start from the last digit and move towards the first. If the current digit is less than 9, we simply increment it and return the list. If the digit is 9, we set it to 0 and continue to the next digit. If all digits are 9, we add a new digit 1 at the beginning of the list.
+
+## Day 9 - Move Zeroes
+In this problem, we need to move all zeroes in the list to the end while maintaining the order of non-zero elements. We use a pointer last_non_zero_found_at to keep track of the position of the last non-zero element. We iterate through the list, and whenever we find a non-zero element, we swap it with the element at last_non_zero_found_at and increment the pointer. This ensures that all non-zero elements are moved to the front, and zeroes are pushed to the end.
