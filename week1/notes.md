@@ -27,3 +27,6 @@ In this problem, we are given a list of digits representing a large integer. We 
 
 ## Day 9 - Move Zeroes
 In this problem, we need to move all zeroes in the list to the end while maintaining the order of non-zero elements. We use a pointer last_non_zero_found_at to keep track of the position of the last non-zero element. We iterate through the list, and whenever we find a non-zero element, we swap it with the element at last_non_zero_found_at and increment the pointer. This ensures that all non-zero elements are moved to the front, and zeroes are pushed to the end.
+
+## Day 10 - Palindrome Check
+In this problem, we need to determine whether a given integer is a palindrome. A palindrome is a number that reads the same backward as forward. We first handle edge cases: if the number is negative or ends with a zero (but is not zero itself), it cannot be a palindrome. We then reverse the second half of the number and compare it with the first half. If they are equal, the number is a palindrome; otherwise, it is not.

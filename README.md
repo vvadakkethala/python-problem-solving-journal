@@ -16,7 +16,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 7.  [x] Intersection of Two Arrays II
 8.  [x] Plus One
 9.  [x] Move Zeroes
-10. [ ] Palindrome Check
+10. [x] Palindrome Check
 11. [ ] Reverse String
 12. [ ] Implement strStr()
 13. [ ] Remove Duplicates from Sorted Array
