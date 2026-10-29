@@ -30,3 +30,9 @@ In this problem, we need to move all zeroes in the list to the end while maintai
 
 ## Day 10 - Palindrome Check
 In this problem, we need to determine whether a given integer is a palindrome. A palindrome is a number that reads the same backward as forward. We first handle edge cases: if the number is negative or ends with a zero (but is not zero itself), it cannot be a palindrome. We then reverse the second half of the number and compare it with the first half. If they are equal, the number is a palindrome; otherwise, it is not.
+
+## Day 11 - Reverse String
+In this problem, we need to reverse the input string in-place. We use two pointers, one starting at the beginning of the string and the other at the end. We swap the characters at these pointers and move the pointers towards each other until they meet in the middle. This effectively reverses the string without using extra space.
+
+## Day 12 - Remove Duplicates from Sorted Array
+In this problem, we need to remove duplicates from a sorted array in-place and return the new length of the array. We use a pointer i to keep track of the position of the last unique element. We iterate through the array with another pointer j, and whenever we find an element that is different from nums[i], we increment i and update nums[i] with nums[j]. Finally, we return i + 1 as the new length of the array containing only unique elements.
