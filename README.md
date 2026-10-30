@@ -19,7 +19,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 10. [x] Palindrome Check
 11. [x] Reverse String
 12. [x] Remove Duplicates from Sorted Array
-13. [ ] Remove Element
+13. [x] Remove Element
 14. [ ] Majority Element
 15. [ ] Rotate Array
 

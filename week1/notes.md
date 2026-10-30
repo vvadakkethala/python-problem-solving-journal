@@ -36,3 +36,7 @@ In this problem, we need to reverse the input string in-place. We use two pointe
 
 ## Day 12 - Remove Duplicates from Sorted Array
 In this problem, we need to remove duplicates from a sorted array in-place and return the new length of the array. We use a pointer i to keep track of the position of the last unique element. We iterate through the array with another pointer j, and whenever we find an element that is different from nums[i], we increment i and update nums[i] with nums[j]. Finally, we return i + 1 as the new length of the array containing only unique elements.
+
+## Day 13 - Remove Element
+In this problem, we are given an integer array nums and an integer val. We need to remove all occurrences of val in nums in-place and return the number of elements in nums which are not equal to val. We use a pointer i to keep track of the position of the last element not equal to val. We iterate through the array with another pointer j, and whenever we find an element not equal to val, we update nums[i] with nums[j] and increment i. Finally, we return i as the number of elements not equal to val.
+
