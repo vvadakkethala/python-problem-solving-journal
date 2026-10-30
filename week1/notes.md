@@ -40,3 +40,5 @@ In this problem, we need to remove duplicates from a sorted array in-place and r
 ## Day 13 - Remove Element
 In this problem, we are given an integer array nums and an integer val. We need to remove all occurrences of val in nums in-place and return the number of elements in nums which are not equal to val. We use a pointer i to keep track of the position of the last element not equal to val. We iterate through the array with another pointer j, and whenever we find an element not equal to val, we update nums[i] with nums[j] and increment i. Finally, we return i as the number of elements not equal to val.
 
+## Day 14 - Majority Element
+In this problem, we are given an array of size n and need to find the majority element, which is the element that appears more than ⌊n / 2⌋ times. We use a hash map (Counter) to count the frequency of each element as we iterate through the array. If the count of any element exceeds n // 2, we return that element as the majority element. This approach ensures that we efficiently find the majority element in a single pass through the array.
