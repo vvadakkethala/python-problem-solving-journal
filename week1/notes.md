@@ -42,3 +42,6 @@ In this problem, we are given an integer array nums and an integer val. We need 
 
 ## Day 14 - Majority Element
 In this problem, we are given an array of size n and need to find the majority element, which is the element that appears more than ⌊n / 2⌋ times. We use a hash map (Counter) to count the frequency of each element as we iterate through the array. If the count of any element exceeds n // 2, we return that element as the majority element. This approach ensures that we efficiently find the majority element in a single pass through the array.
+
+## Day 15 - Rotate Array
+In this problem, we are given an array and a non-negative integer k. We need to rotate the array to the right by k steps. We first handle the case where k is greater than the length of the array by taking k modulo the array length. We then reverse the entire array, reverse the first k elements, and finally reverse the remaining elements. This approach rotates the array in-place without using extra space.
