@@ -14,10 +14,10 @@ def removeDuplicatesFromSortedArray(nums: list[int]) -> int:
 
 ## Example usage
 if __name__ == "__main__":
-    nums = [1, 1, 2]
+    nums = [1]
     length = removeDuplicatesFromSortedArray(nums)
-    print(length)  # Output: 2
-    print(nums[:length])  # Output: [1, 2]
+    print(length)  # Output: 1
+    print(nums[:length])  # Output: [1]
 
     nums = [0,0,1,1,1,2,2,3,3,4]
     length = removeDuplicatesFromSortedArray(nums)
