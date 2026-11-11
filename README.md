@@ -27,7 +27,7 @@ This is my 4-week journey to level up from Level 3 to Level 6–7 in Python prob
 
 ### 🔁 Week 2: Two Pointers & Sliding Window
 1.  [x] Valid Palindrome
-2.  [ ] Two Sum II - Input Array Is Sorted
+2.  [x] Two Sum II - Input Array Is Sorted
 3.  [ ] 3Sum
 4.  [ ] Remove Duplicates from Sorted Array II
 5.  [ ] Container With Most Water
