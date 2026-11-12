@@ -42,3 +42,14 @@ To solve this, we can:
 5. Continue until the end of the array.
 6. Return `j` as the new length of the array.
 
+## Day 5 - Container With Most Water
+In this problem, we are asked to find two lines in an array of non-negative integers that, together with the x-axis, form a container that holds the most water.
+
+To solve this, we can:
+1. Use two pointers, one starting from the beginning and the other from the end of the array.
+2. Calculate the area formed by the lines at the two pointers and the x-axis.
+3. Keep track of the maximum area found.
+4. Move the pointer pointing to the shorter line inward, as moving the taller line won't increase the area.
+5. Repeat until the two pointers meet.
+6. Return the maximum area found.
+
