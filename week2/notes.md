@@ -18,3 +18,27 @@ To solve this, we can:
 5. If the sum is greater than the target, move the right pointer to the left.
 6. Repeat until the two pointers meet.
 
+## Day 3 - 3Sum
+In this problem, we are asked to find all unique triplets in an array that sum up to zero.
+
+To solve this, we can:
+1. Sort the array.
+2. Iterate through the array with an index `i`.
+3. For each `i`, use two pointers `left` and `right` to find pairs that sum up with `nums[i]` to zero.
+4. Skip duplicate elements to avoid duplicate triplets.
+5. If the sum of the triplet is zero, add it to the result list.
+6. If the sum is less than zero, move the `left` pointer to the right.
+7. If the sum is greater than zero, move the `right` pointer to the left.
+8. Continue until all triplets are found.
+
+## Day 4 - Remove Duplicates from Sorted Array II
+In this problem, we are asked to remove duplicates from a sorted array such that each element appears at most twice and return the new length.
+
+To solve this, we can:
+1. If the array has 2 or fewer elements, return its length.
+2. Use a pointer `j` starting at index 2 to track the position of the next unique element.
+3. Iterate through the array starting from index 2 with a pointer `i`.
+4. If `nums[i]` is not equal to `nums[j - 2]`, assign `nums[j] = nums[i]` and increment `j`.
+5. Continue until the end of the array.
+6. Return `j` as the new length of the array.
+
