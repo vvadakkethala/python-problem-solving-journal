@@ -53,3 +53,12 @@ To solve this, we can:
 5. Repeat until the two pointers meet.
 6. Return the maximum area found.
 
+## Day 6 - Find the Index of the First Occurrence in a String
+In this problem, we are asked to find the index of the first occurrence of a substring (needle) in a given string (haystack). If the substring is not found, we return -1.
+
+To solve this, we can:
+1. Iterate through the haystack from index 0 to `len(haystack) - len(needle)`.
+2. For each index, check if the substring of haystack starting at that index and having the length of needle matches the needle.
+3. If a match is found, return the current index.
+4. If no match is found after the iteration, return -1.
+
